@@ -1,0 +1,40 @@
+2023-9-1 22:43:23			500			/api/files/create			localhost:5000			POST			error: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+ 2023-9-1 22:45:13			500			/api/files/create			localhost:5000			POST			error: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+ 2023-9-1 22:45:13			500			/api/files/create			localhost:5000			POST			error: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+ 2023-9-1 22:46:19			500			/api/files/create			localhost:5000			POST			error: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+ 2023-9-1 22:52:34			500			/api/files/create			localhost:5000			POST			error: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+ 2023-9-1 22:53:10			500			/api/files/create			localhost:5000			POST			error: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+ 2023-9-1 23:20:27			500			/api/files/create			localhost:5000			POST			error: EISDIR: illegal operation on a directory, open 'C:\Users\hp\Desktop\fullstack\fms\frontend\files\folder1'
+ 2023-9-1 23:21:36			500			/api/files/create			localhost:5000			POST			error: EISDIR: illegal operation on a directory, open 'C:\Users\hp\Desktop\fullstack\fms\frontend\files\folder1'
+ 2023-9-1 23:21:46			500			/api/files/create			localhost:5000			POST			error: EISDIR: illegal operation on a directory, open 'C:\Users\hp\Desktop\fullstack\fms\frontend\files\folder1'
+ 2023-9-1 23:23:4			500			/api/files/create			localhost:5000			POST			error: EISDIR: illegal operation on a directory, open 'C:\Users\hp\Desktop\fullstack\fms\frontend\files\folder1'
+ 2023-9-1 23:25:10			500			/api/files/64f2024bd0edea35fbd23f85			localhost:5000			PUT			error: ENOENT: no such file or directory, open 'C:\Users\hp\Desktop\fullstack\fms\frontend\files\folder1\mark.txt\mark.txt'
+ 2023-9-2 11:8:14			500			/api/files/download64f1ff4dd87d707dd6924a80			localhost:5000			GET			error: Cast to ObjectId failed for value "download64f1ff4dd87d707dd6924a80" (type string) at path "_id" for model "File"
+ 2023-9-2 11:30:56			500			/api/files/download/null			localhost:5000			GET			error: Cast to ObjectId failed for value "null" (type string) at path "_id" for model "File"
+ 2023-9-2 11:40:49			500			/api/files/download/null			localhost:5000			GET			error: Cast to ObjectId failed for value "null" (type string) at path "_id" for model "File"
+ 2023-9-2 11:54:7			500			/api/files/download/null			localhost:5000			GET			error: Cast to ObjectId failed for value "null" (type string) at path "_id" for model "File"
+ 2023-9-2 12:31:43			500			/api/files/download/64f2b9af03052cb87258733b			localhost:5000			GET			error: Header name must be a valid HTTP token ["file-name: try.txt"]
+ 2023-9-2 12:40:56			500			/api/files/download/null			localhost:5000			GET			error: Cast to ObjectId failed for value "null" (type string) at path "_id" for model "File"
+ 2023-9-2 12:41:48			500			/api/files/create			localhost:5000			OPTIONS			error: Not allowed by CORS
+ 2023-9-2 13:12:6			401			/api/files			localhost:5000			GET			error: Cannot read properties of undefined (reading 'split')
+ 2023-9-2 21:51:30			500			/api/files			localhost:5000			GET			error: Cannot read properties of undefined (reading 'username')
+ 2023-9-3 9:51:25			401			/api/folder			localhost:5000			GET			error: Cannot set headers after they are sent to the client
+ 2023-9-3 9:56:31			401			/api/folder			localhost:5000			GET			error: Cannot set headers after they are sent to the client
+ 2023-9-3 9:56:31			401			/api/folder			localhost:5000			GET			error: Cannot set headers after they are sent to the client
+ 2023-9-3 10:8:37			401			/api/folder			localhost:5000			GET			error: Cannot set headers after they are sent to the client
+ 2023-9-3 10:8:37			401			/api/folder			localhost:5000			GET			error: Cannot set headers after they are sent to the client
+ 2023-9-3 10:9:55			401			/api/folder			localhost:5000			GET			error: Cannot set headers after they are sent to the client
+ 2023-9-3 10:9:55			401			/api/folder			localhost:5000			GET			error: Cannot set headers after they are sent to the client
+ 2023-9-3 10:15:47			401			/api/folder			localhost:5000			GET			error: Cannot set headers after they are sent to the client
+ 2023-9-3 10:15:47			401			/api/folder			localhost:5000			GET			error: Cannot set headers after they are sent to the client
+ 2023-9-3 10:19:34			401			/api/folder			localhost:5000			GET			error: Cannot set headers after they are sent to the client
+ 2023-9-3 10:19:34			401			/api/folder			localhost:5000			GET			error: Cannot set headers after they are sent to the client
+ 2023-9-3 10:24:53			401			/api/folder			localhost:5000			GET			error: Cannot set headers after they are sent to the client
+ 2023-9-3 10:24:53			401			/api/folder			localhost:5000			GET			error: Cannot set headers after they are sent to the client
+ 2023-9-3 10:25:50			401			/api/folder			localhost:5000			GET			error: Cannot set headers after they are sent to the client
+ 2023-9-3 10:25:50			401			/api/folder			localhost:5000			GET			error: Cannot set headers after they are sent to the client
+ 2023-9-3 10:28:40			401			/api/folder			localhost:5000			GET			error: Cannot set headers after they are sent to the client
+ 2023-9-3 10:28:40			401			/api/folder			localhost:5000			GET			error: Cannot set headers after they are sent to the client
+ 2023-9-3 10:30:39			401			/api/folder			localhost:5000			GET			error: Cannot set headers after they are sent to the client
+ 2023-9-3 10:30:39			401			/api/folder			localhost:5000			GET			error: Cannot set headers after they are sent to the client
+ 

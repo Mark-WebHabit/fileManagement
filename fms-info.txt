@@ -1,0 +1,33 @@
+Filemanagement system keys and feature
+
+P.S:
+-the ongoing and outgoing files are rendered in both physical and database file management
+- the ui is not made for responsive layout, for demo purposes only
+
+SECURITY:
+- user roles and authorizatoin using jsonwebtoken
+- security layerd, input validation, http request and response security layered and htmlOnly cookie
+- Cross-orgin-resource-sharing (CORS)
+- only accessible to specified url (can add more if necessary)
+- password encryption
+- secured server validation to avoid any penetartion or haking as much as possible
+- using https method (not directly in the url)
+- unauthorized user restriction
+
+FEATURE
+- dynamic route handling 
+- route error handler
+- add file
+- delete file
+- upload file
+- update file
+- create folde
+- delete folder
+- login
+- register
+- logout
+(only the operation with get method is allowed  within the user with 'User' Role (except for login, logout and register)
+
+only textbased files are accepted with maximum of 3mb per files
+.txt, .html. .csv, .md, .json
+
